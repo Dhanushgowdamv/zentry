@@ -20,7 +20,7 @@ const About = () => {
     });
 
     clipAnimation.fromTo(
-      ".mask-clip-path",
+      ".mask-clip-paths",
       { width: "50vw", height: "50vh", borderRadius: "50%" },
       { width: "100vw", height: "100vh", borderRadius: 0 }
     );
@@ -50,7 +50,7 @@ const About = () => {
       </div>
 
       <div className="h-dvh w-screen" id="clip">
-        <div className="mask-clip-path about-image">
+        <div className="mask-clip-paths about-image">
           <img
             src="img/about.webp"
             alt="Background"
