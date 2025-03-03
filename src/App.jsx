@@ -3,6 +3,7 @@ import Hero from './component/hero'
 import About from './component/about'
 import Navbar from './component/Navbar'
 import Features from './component/Features'
+import Story from './component/Story'
 const App = () => {
   return (
     <main className="relative min-h-screen w-screen overflow-x-hidden
@@ -11,6 +12,7 @@ const App = () => {
       <Hero />
       <About/>
       <Features/>
+      <Story/>
     </main>
   )
 }
