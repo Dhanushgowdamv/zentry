@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from './component/hero'
 import About from './component/about'
 import Navbar from './component/Navbar'
+import Features from './component/Features'
 const App = () => {
   return (
     <main className="relative min-h-screen w-screen overflow-x-hidden
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar/>
       <Hero />
       <About/>
+      <Features/>
     </main>
   )
 }
