@@ -4,6 +4,8 @@ import About from './component/about'
 import Navbar from './component/Navbar'
 import Features from './component/Features'
 import Story from './component/Story'
+import Contact from './component/contact'
+import Footer from './component/Footer'
 const App = () => {
   return (
     <main className="relative min-h-screen w-screen overflow-x-hidden
@@ -13,6 +15,9 @@ const App = () => {
       <About/>
       <Features/>
       <Story/>
+      <Contact/>
+      <Footer/>
+      
     </main>
   )
 }
