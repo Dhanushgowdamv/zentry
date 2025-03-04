@@ -4,7 +4,7 @@ import About from './component/about'
 import Navbar from './component/Navbar'
 import Features from './component/Features'
 import Story from './component/Story'
-import Contact from './component/contact'
+import Contact from './component/Contact'
 import Footer from './component/Footer'
 const App = () => {
   return (
